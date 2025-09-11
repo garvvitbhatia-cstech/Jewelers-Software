@@ -1,0 +1,85 @@
+.modal-header {
+    background: #D7A405;
+    margin: 0 0 5px;
+    border: none;
+    padding: 20px 15px;
+    text-align: center;
+}
+.modal-header h1, .modal-header .close{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+.modal-header .close{
+    opacity: 1;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 12px;
+}
+.modal-content p {
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.cropperPopUp .modal-body{
+    padding: 0;
+    margin: 0;
+}
+.modal-header{
+    margin-bottom: 0px;
+}
+.img-container img {
+    max-width: 100%;
+    max-height: 500px;
+}
+.modal-footer{
+    margin-top: 0;
+}
+.success{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.error{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.dashboard-box a{
+    color: #333;
+}
+.dashboard-box a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+.dashboard-box a:hover .panel-body{
+    background: rgb(4, 105, 105) !important;
+}
+.dashboard-box a h3{
+    font-size: 20px !important;
+}
+.searchForm{
+    display: inline-block;
+}
+.searchForm .form-control{
+    display: inline-block;
+    vertical-align: middle;
+}
+#page-wrapper h1.page-header{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #428bca;
+}
